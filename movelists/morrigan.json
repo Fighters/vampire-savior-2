@@ -1,0 +1,101 @@
+{
+	"names": {
+		"default": {
+			"roman": "Morrigan"
+		},
+		"japan": {
+			"roman": "Morrigan",
+			"original": "モリガン・アーンスランド"
+		}
+	},
+	"images": {
+		"face": "morrigan.webp"
+	},
+	"moves": {
+		"{normalThrows}": [
+			{
+				"name": "Moon Tracer",
+				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+			},
+			{
+				"name": "Breast Anguish",
+				"input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
+			},
+			{
+				"name": "Sexual Embrace",
+				"input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
+			}
+		],
+		"{uniqueAttacks}": [
+			{
+				"name": "Vertical Dash",
+				"input": ":d::u: {or} :d::ub: {or} :d::uf:"
+			}
+		],
+		"{pursuit}": [
+			{
+				"name": "Shell Pierce",
+				"input": "{withOpponentKnockedDown}, :u:+[P] {or} [K]",
+				"canBeUpgraded": true
+			}
+		],
+		"{specialMoves}": [
+			{
+				"name": "Soul Fist",
+				"input": ":qcf:+[P]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Aerial Soul Fist",
+				"input": "{inAir}, :qcf:+[P]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Shadow Blade",
+				"input": ":dp:+[P]",
+				"canBeUpgraded": true,
+				"guardCancel": true
+			},
+			{
+				"name": "Vector Drain",
+				"input": "{close}, :hcb:+[MP] {or} [HP]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Shell Kick",
+				"input": "{inAir}, :d:+[K]",
+				"extraInfo": "{shellKickInfo}"
+			}
+		],
+		"{exMoves}": [
+			{
+				"name": "Valkyrie Turn",
+				"input": ":hcb:+[K], {press} [K] {toAttack} ({airOK})"
+			},
+			{
+				"name": "Darkness Illusion",
+				"input": "[LP] > [LP] > :f: > [LK] > [HP] ({airOK})"
+			},
+			{
+				"name": "Finishing Shower",
+				"input": "[MP] > [LP] > :b: > [LK] > [MK]"
+			},
+			{
+				"name": "Cryptic Needle",
+				"input": ":f: > [HP] > [MP] > [LP] > :f:"
+			},
+			{
+				"name": "Astral Vision",
+				"input": "[LP] > [LP] > :f: > [MP] > [HP] ({airOK})"
+			}
+		]
+	},
+	"custom_strings": {
+		"english": {
+			"shellKickInfo": "This move comes out more easily if you cancel into it from [LP], [LK], [MP] {or} [MK]"
+		},
+		"portuguese": {
+			"shellKickInfo": "esse golpe sai mais fácil se você cancelar nele a partir de [LP], [LK], [MP] {or} [MK]"
+		}
+	}
+}
