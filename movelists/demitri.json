@@ -1,0 +1,92 @@
+{
+	"names": {
+		"default": {
+			"roman": "Demitri"
+		},
+		"japan": {
+			"roman": "Demitri",
+			"original": "デミトリ・マキシモフ"
+		}
+	},
+	"images": {
+		"face": "demitri.webp"
+	},
+	"moves": {
+		"{normalThrows}": [
+			{
+				"name": "Bat Dive",
+				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+			},
+			{
+				"name": "Light Pleasure",
+				"input": "{close}, :b: {or} :f:+[MK] {or} [HK]",
+				"extraInfo": "{mashThrow}"
+			},
+			{
+				"name": "Demon Fly",
+				"input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
+			}
+		],
+		"{pursuit}": [
+			{
+				"name": "Hell's Ride",
+				"input": "{withOpponentKnockedDown}, :u:+[P] {or} [K]",
+				"canBeUpgraded": true
+			}
+		],
+		"{specialMoves}": [
+			{
+				"name": "Chaos Flare",
+				"input": ":qcf:+[P] ({airOk})",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Demon Cradle",
+				"input": ":dp:+[P]",
+				"canBeUpgraded": true,
+				"guardCancel": true
+			},
+			{
+				"name": "Dashing Demon Cradle",
+				"input": ":f::f: > :dp:+[P]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Bat Spin",
+				"input": ":qcb:+[K] ({airOk})",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Negative Stolen",
+				"input": "{close}, :360:+[MP] {or} [HP]"
+			}
+		],
+		"{exMoves}": [
+			{
+				"name": "Darkside Master",
+				"input": ":rdp:+[K]+[K]"
+			},
+			{
+				"name": "Demon Billion",
+				"input": ":d::f::df:+[K]+[K]"
+			},
+			{
+				"name": "Midnight Bliss",
+				"input": ":d::f::df:+[P]+[P]"
+			},
+			{
+				"name": "Midnight Pleasure",
+				"input": "[LP] > [MP] > :f: > [MK] > [MK]",
+				"exMoveCost": 2
+			}
+		]
+	},
+	"custom_strings": {
+		"english": {
+			"mashThrow": "wiggle the joystick and tap [K] for more damage"
+		},
+		"portuguese": {
+			"mashThrow": "Gire o direcional e aperte [K] repetidamente para aumentar o dano"
+		}
+	}
+}
