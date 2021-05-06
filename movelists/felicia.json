@@ -1,0 +1,108 @@
+{
+	"names": {
+		"default": {
+			"roman": "Felicia"
+		},
+		"japan": {
+			"roman": "Felicia",
+			"original": "フェリシア"
+		}
+	},
+	"images": {
+		"face": "felicia.webp"
+	},
+	"moves": {
+		"{normalThrows}": [
+			{
+				"name": "Panic Nail",
+				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+			},
+			{
+				"name": "Tumble Cat",
+				"input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
+			},
+			{
+				"name": "Flip Cat",
+				"input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
+			}
+		],
+		"{uniqueAttacks}": [
+			{
+				"name": "EX Charge",
+				"input": ":d::d:+[K]+[K] ({exChargeHold})"
+			},
+			{
+				"name": "Wall Clutch",
+				"input": "{duringJumpNearWall}, {hold} :b:"
+			},
+			{
+				"name": "Head Ride",
+				"input": "{headRide}"
+			}
+		],
+		"{pursuit}": [
+			{
+				"name": "Romper Cat",
+				"input": "{withOpponentKnockedDown}, :u:+[P] {or} [K]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Toy Touch",
+				"input": "{withOpponentKnockedDown}, :d::d:+[P]",
+				"canBeUpgraded": true
+			}
+		],
+		"{specialMoves}": [
+			{
+				"name": "Rolling Buckler",
+				"input": ":qcf:+[P]",
+				"canBeUpgraded": true
+			},
+				{
+					"name": "Rolling Uppercut",
+					"input": "{press} [P]",
+					"after": "Rolling Buckler"
+				},
+			{
+				"name": "Cat Spike",
+				"input": ":dp:+[P]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Delta Kick",
+				"input": ":dp:+[K]",
+				"canBeUpgraded": true,
+				"guardCancel": true
+			},
+			{
+				"name": "Hell Cat",
+				"input": "{close}, :hcb:+[MK] {or} [HK]",
+				"canBeUpgraded": true
+			}
+		],
+		"{exMoves}": [
+			{
+				"name": "Dancing Flash",
+				"input": ":hcf:+[P]+[P]"
+			},
+			{
+				"name": "Please Help Me!",
+				"input": ":hcf:+[K]+[K]"
+			},
+			{
+				"name": "Kitty's Helper",
+				"input": ":rdp:+[K]+[K]"
+			}
+		]
+	},
+	"custom_strings": {
+		"english": {
+			"exChargeHold": "hold [K]+[K] to keep building meter",
+			"headRide": "jump on the opponent's head"
+		},
+		"portuguese": {
+			"exChargeHold": "segure [K]+[K] para continuar enchendo barra",
+			"headRide": "pule na cabeça do oponente"
+		}
+	}
+}
