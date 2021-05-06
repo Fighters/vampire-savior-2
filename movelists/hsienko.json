@@ -1,0 +1,84 @@
+{
+	"names": {
+		"default": {
+			"roman": "Hsien-Ko"
+		},
+		"japan": {
+			"roman": "Lei-Lei",
+			"original": "レイレイ"
+		}
+	},
+	"images": {
+		"face": "hsienko.webp"
+	},
+	"moves": {
+		"{normalThrows}": [
+			{
+				"name": "Horei",
+				"input": "{close}, :b: {or} :f:+[MP] {or} [HP] {or} [MK] {or} [HK]"
+			},
+			{
+				"name": "Hoten",
+				"input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
+			}
+		],
+		"{uniqueAttacks}": [
+			{
+				"name": "Rantetsu",
+				"input": ":f:+[MP]"
+			},
+			{
+				"name": "Edoga",
+				"input": ":f:+[HP]"
+			}
+		],
+		"{pursuit}": [
+			{
+				"name": "Zanpa",
+				"input": "{withOpponentKnockedDown}, :u:+[P] {or} [K]",
+				"canBeUpgraded": true
+			}
+		],
+		"{specialMoves}": [
+			{
+				"name": "Anki Hou",
+				"input": ":qcf:+[P]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Henkyo Ki",
+				"input": ":qcb:+[P]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Senpu Bu",
+				"input": ":dp:+[P] ({airOK}; {press} [K] {toCancel})",
+				"canBeUpgraded": true,
+				"guardCancel": true
+			},
+			{
+				"name": "Hoten Geki",
+				"input": "{close}, :hcb:+[MP] {or} [HP]",
+				"canBeUpgraded": true
+			}
+		],
+		"{exMoves}": [
+			{
+				"name": "Chukadan",
+				"input": ":hcf:+[P]+[P]"
+			},
+			{
+				"name": "Chireitou",
+				"input": ":hcf:+[K]+[K]"
+			},
+			{
+				"name": "Tenraiha",
+				"input": "[LK] > [HK] > [MP] > [MP] > :u:"
+			}
+		]
+	},
+	"custom_strings": {
+		"english": {},
+		"portuguese": {}
+	}
+}
