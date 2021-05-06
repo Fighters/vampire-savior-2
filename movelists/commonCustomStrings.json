@@ -1,0 +1,22 @@
+{
+    "english": {
+        "normalThrows": "Normal Throws",
+        "pursuit": "Pursuit",
+        "uniqueAttacks": "Unique Attacks",
+        "specialMoves": "Special Moves",
+        "exMoves": "EX Moves",
+        "darkForce": "Dark Force",
+        "withOpponentKnockedDown": "with the opponent knocked down",
+        "sameStrenghtPunchAndKick": "same strenght [P]+[K]"
+    },
+    "portuguese": {
+        "normalThrows": "Agarrões Normais",
+        "pursuit": "Pursuit",
+        "uniqueAttacks": "Ataques Únicos",
+        "specialMoves": "Golpes Especiais",
+        "exMoves": "Golpes EX",
+        "darkForce": "Dark Force",
+        "withOpponentKnockedDown": "com o oponente caído",
+        "sameStrenghtPunchAndKick": "[P]+[K] de mesma intensidade"
+    }
+}
