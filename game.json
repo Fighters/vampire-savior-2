@@ -1,0 +1,42 @@
+{
+	"names": [
+		{
+			"region": "default",
+			"roman": "Vampire Savior 2: The Lord of Vampire"
+		},
+		{
+			"region": "japan",
+			"roman": "Vampire Savior 2: The Lord of Vampire",
+			"original": "ヴァンパイア セイヴァー 2 ザ ロード オブ ヴァンパイアズ"
+		}
+	],
+	"also-known-as": [
+		"vsav2"
+	],
+	"platforms": [
+		{
+			"name": "Arcade",
+			"regions": [
+				{
+					"name": "Japan",
+					"roman": "Vampire Savior 2: The Lord of Vampire",
+					"original": "ヴァンパイア セイヴァー 2 ザ ロード オブ ヴァンパイアズ",
+					"releaseDate": "09-1997",
+					"developer": "Capcom",
+					"publisher": "Capcom"
+				}
+			]
+		}
+	],
+	"features": [
+		{
+			"name": "Enhanced Specials"
+		},
+		{
+			"name": "EX Moves"
+		},
+		{
+			"name": "Guard Cancel"
+		}
+	]
+}
