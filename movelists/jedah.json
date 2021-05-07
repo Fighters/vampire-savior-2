@@ -1,0 +1,98 @@
+{
+	"names": {
+		"default": {
+			"roman": "Jedah"
+		},
+		"japan": {
+			"roman": "Jedah",
+			"original": "ジェダ"
+		}
+	},
+	"images": {
+		"face": "jedah.webp"
+	},
+	"moves": {
+		"{normalThrows}": [
+			{
+				"name": "Sangue Vangelo",
+				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+			},
+			{
+				"name": "Masto Spinta",
+				"input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
+			}
+		],
+		"{uniqueAttacks}": [
+			{
+				"name": "Balzo Perdono",
+				"input": "{inAir}, :f::f:"
+			},
+			{
+				"name": "Balzo Perdono (Horizontal)",
+				"input": "{inAir}, :f::uf:"
+			},{
+				"name": "Balzo Perdono (Downward)",
+				"input": "{inAir}, :f::df:"
+			}
+		],
+		"{pursuit}": [
+			{
+				"name": "Rasare Sega",
+				"input": "{withOpponentKnockedDown}, :u:+[P] {or} [K]",
+				"canBeUpgraded": true
+			}
+		],
+		"{specialMoves}": [
+			{
+				"name": "Dio Sega",
+				"input": ":qcf:+[P] ({airOK})",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Nero Fatica",
+				"input": ":qcb:+[P]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Spreggio",
+				"input": ":dp:+[P]",
+				"canBeUpgraded": true,
+				"guardCancel": true
+			},
+			{
+				"name": "Ira Spinta",
+				"input": "{inAir}, :hcb:+[K]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Ira Piano",
+				"input": "{press} [P]",
+				"canBeUpgraded": true,
+				"after": "Ira Spinta"
+			},
+			{
+				"name": "Sangue Passare",
+				"input": "{close}, :hcb:+[MK] {or} [HK]",
+				"canBeUpgraded": true
+			}
+		],
+		"{exMoves}": [
+			{
+				"name": "Finale Rosso",
+				"input": ":d::d:+[P]+[P]"
+			},
+			{
+				"name": "Prova di Servo",
+				"input": ":hcf:+[K]+[K], {press} [K] {toAttack}"
+			},
+			{
+				"name": "Santuario",
+				"input": ":rdp:+[K]+[K]"
+			}
+		]
+	},
+	"custom_strings": {
+		"english": {},
+		"portuguese": {}
+	}
+}
