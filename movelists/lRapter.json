@@ -1,0 +1,136 @@
+{
+	"names": {
+		"default": {
+			"roman": "L. Rapter"
+		},
+		"japan": {
+			"roman": "Zabel",
+			"original": "ザベル"
+		}
+	},
+	"images": {
+		"face": "lrapter.webp"
+	},
+	"moves": {
+		"{normalThrows}": [
+			{
+				"name": "Murderer Beat",
+				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+			},
+            {
+				"name": "Deadly Catapult",
+				"input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
+			},
+			{
+				"name": "Air Catastrophe",
+				"input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
+			}
+		],
+		"{uniqueAttacks}": [
+			{
+				"name": "Crawl",
+				"input": ":db: {or} :df:"
+			},
+			{
+				"name": "Air Dash",
+				"input": "{inAir}, :b::b: {or} :f::f:"
+			},
+            {
+				"name": "Mad Pick",
+				"input": ":f:+[LP]"
+			},
+            {
+				"name": "Mad Cutter",
+				"input": ":f:+[MP]"
+			},
+            {
+				"name": "Toxic Bone",
+				"input": ":f:+[HP]"
+			},
+            {
+				"name": "Hell Edge",
+				"input": ":f:+[LK]"
+			},
+            {
+				"name": "Hell Shout",
+				"input": ":f:+[MK]"
+			},
+            {
+				"name": "Hell Chainsaw",
+				"input": ":f:+[HK]"
+			},
+            {
+				"name": "Mad Dagger",
+				"input": "{inAir}, :d:+[LP]"
+			},
+            {
+				"name": "Mad Bullova",
+				"input": "{inAir}, :d:+[MP]"
+			},
+            {
+				"name": "Bone Halberd",
+				"input": "{inAir}, :d:+[HP]"
+			},
+            {
+				"name": "Loudness Screw",
+				"input": "{inAir}, :d:+[K]"
+			}
+		],
+		"{pursuit}": [
+			{
+				"name": "Skull Javelin",
+				"input": "{withOpponentKnockedDown}, :u:+[P] {or} [K]",
+				"canBeUpgraded": true
+			}
+		],
+		"{specialMoves}": [
+			{
+				"name": "Death Phrase",
+				"input": "{whileBlocking}, :dp:+[K]",
+				"canBeUpgraded": true,
+				"guardCancel": true
+			},
+			{
+				"name": "Death Hurricane",
+				"input": ":qcb:+[K] ({airOK})",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Skull Sting",
+				"input": ":d::u:+[K] ({airOK})",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Skull Punish",
+				"input": "{close}, :hcb:+[MP] {or} [HP]",
+				"canBeUpgraded": true
+			},
+            {
+				"name": "Hell's Gate",
+				"input": ":hcf:+[K]"
+			}
+		],
+		"{exMoves}": [
+			{
+				"name": "Evil Scream",
+				"input": ":f::b:+[P]+[P]"
+			},
+			{
+				"name": "Death Voltage",
+				"input": ":hcb:+[K]+[K]"
+			},
+			{
+				"name": "Hell Dunk",
+				"input": ":dp:+[P]+[P]"
+			},
+			{
+				"name": "Ultimate Undead",
+				"input": ":rdp:+[K]+[K]"
+			}
+		]
+	},
+	"custom_strings": {
+		"english": {},
+		"portuguese": {}
+	}
+}
