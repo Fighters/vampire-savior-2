@@ -1,0 +1,88 @@
+{
+	"names": {
+		"default": {
+			"roman": "Q-Bee"
+		},
+		"japan": {
+			"roman": "Q-Bee",
+			"original": "キュービィ"
+		}
+	},
+	"images": {
+		"face": "qbee.webp"
+	},
+	"moves": {
+		"{normalThrows}": [
+			{
+				"name": "Cn",
+				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+			},
+			{
+				"name": "Ca",
+				"input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
+			}
+		],
+		"{uniqueAttacks}": [
+			{
+				"name": "Float",
+				"input": "{inAir}, {hold} :u:"
+			},
+			{
+				"name": "Homing Dash",
+				"input": "{inAir}, :f::f:"
+			}
+		],
+		"{pursuit}": [
+			{
+				"name": "S⟶U",
+				"input": "{withOpponentKnockedDown}, :u:+[P] {or} [K]",
+				"canBeUpgraded": true
+			}
+		],
+		"{specialMoves}": [
+			{
+				"name": "SxP",
+				"input": "{tap} [K] {repeatedly}"
+			},
+			{
+				"name": "∆A",
+				"input": ":qcb:+[K] ({airOK})",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "C⟶R",
+				"input": ":hcf:+[P] ({airOK})",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "O.M.",
+				"input": "{close}, :hcb:+[MP] {or} [HP]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "R.M.",
+				"input": "{whileBlocking}, :dp:+[K]",
+				"canBeUpgraded": true,
+				"guardCancel": true
+			}
+		],
+		"{exMoves}": [
+			{
+				"name": "Qj",
+				"input": ":dp:+[P]+[P]"
+			},
+			{
+				"name": "+B",
+				"input": ":hcf:+[K]+[K]"
+			},
+			{
+				"name": "i²",
+				"input": ":rdp:+[K]+[K]"
+			}
+		]
+	},
+	"custom_strings": {
+		"english": {},
+		"portuguese": {}
+	}
+}
