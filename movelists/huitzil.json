@@ -1,0 +1,109 @@
+{
+	"names": {
+		"default": {
+			"roman": "Huitzil"
+		},
+		"japan": {
+			"roman": "Phobos",
+			"original": "フォボス"
+		}
+	},
+	"images": {
+		"face": "huitzil.webp"
+	},
+	"moves": {
+		"{normalThrows}": [
+			{
+				"name": "Magnet Slam",
+				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+			},
+			{
+				"name": "Sky Capture",
+				"input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
+			}
+		],
+		"{uniqueAttacks}": [
+			{
+				"name": "Upper Disk X",
+				"input": ":f:+[MP]"
+			},
+			{
+				"name": "Slam Disk EX",
+				"input": ":f:+[HP]"
+			},
+			{
+				"name": "Kill Wedge S",
+				"input": ":f:+[MK]"
+			},
+			{
+				"name": "Swing Disk G",
+				"input": ":f:+[HK]"
+			},
+			{
+				"name": "Air Dash",
+				"input": "{inAir}, :b::b: {or} :f::f:"
+			},
+			{
+				"name": "Hover",
+				"input": "{inAir}, {hold} :u:"
+			}
+		],
+		"{pursuit}": [
+			{
+				"name": "Variant Blade",
+				"input": "{withOpponentKnockedDown}, :u:+[P] {or} [K]",
+				"canBeUpgraded": true
+			}
+		],
+		"{specialMoves}": [
+			{
+				"name": "Plasma Beam",
+				"input": ":qcf:+[P] {or} [K]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Plasma Trap",
+				"input": "{inAir}, :qcb:+[K]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Might Launcher",
+				"input": ":qcb:+[P] ({airOK})",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Genocide Vulcan",
+				"input": ":rdp:+[P]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Circuit Scrapper",
+				"input": "{close}, :hcb:+[MP] {or} [HP]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Reflect Wall",
+				"input": "{whileBlocking}, :dp:+[P] ({airOK})",
+				"guardCancel": true
+			}
+		],
+		"{exMoves}": [
+			{
+				"name": "Erasing Sphere",
+				"input": ":rdp:+[K]+[K]"
+			},
+			{
+				"name": "Final Guardian β",
+				"input": ":dp:+[K]+[K]"
+			},
+			{
+				"name": "Ray of Doom",
+				"input": ":d::f::df:+[P]+[P]"
+			}
+		]
+	},
+	"custom_strings": {
+		"english": {},
+		"portuguese": {}
+	}
+}
