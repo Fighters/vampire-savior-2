@@ -1,0 +1,85 @@
+{
+	"names": {
+		"default": {
+			"roman": "Lilith"
+		},
+		"japan": {
+			"roman": "Lilith",
+			"original": "リリス"
+		}
+	},
+	"images": {
+		"face": "lilith.webp"
+	},
+	"moves": {
+		"{normalThrows}": [
+			{
+				"name": "Innocent Hug",
+				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+			},
+			{
+				"name": "Childish Drop",
+				"input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
+			}
+		],
+		"{uniqueAttacks}": [
+			{
+				"name": "High Jump",
+				"input": ":d::u:"
+			}
+		],
+		"{pursuit}": [
+			{
+				"name": "Toe Pierce",
+				"input": "{withOpponentKnockedDown}, :u:+[P] {or} [K]",
+				"canBeUpgraded": true
+			}
+		],
+		"{specialMoves}": [
+			{
+				"name": "Soul Flash",
+				"input": ":qcf:+[P] ({airOK})",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Shinning Blade",
+				"input": ":dp:+[P]",
+				"canBeUpgraded": true,
+				"guardCancel": true
+			},
+			{
+				"name": "Merry Turn",
+				"input": ":qcb:+[K] ({airOK})",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Mystic Arrow",
+				"input": "{close}, :hcb:+[P]",
+				"canBeUpgraded": true
+			}
+		],
+		"{exMoves}": [
+			{
+				"name": "Luminous Illusion",
+				"input": "[LP] > [LP] > :f: > [LK] > [HP] ({airOK})"
+			},
+			{
+				"name": "Mindless Mimic Doll",
+				"input": "[LP] > [LP] > :f: > [MP] > [HP]"
+			},
+			{
+				"name": "Splendor Love",
+				"input": ":dp:+[K]+[K]"
+			},
+			{
+				"name": "Gloomy Puppet Show",
+				"input": ":hcf:+[K]+[K]",
+				"exMoveCost": 2
+			}
+		]
+	},
+	"custom_strings": {
+		"english": {},
+		"portuguese": {}
+	}
+}
