@@ -1,0 +1,141 @@
+{
+	"names": {
+		"default": {
+			"roman": "Anakaris"
+		},
+		"japan": {
+			"roman": "Anakaris",
+			"original": "アナカリス"
+		}
+	},
+	"images": {
+		"face": "anakaris.webp"
+	},
+	"moves": {
+		"{uniqueAttacks}": [
+			{
+				"name": "Seija no Ayumi",
+				"input": ":b: {or} :f:+[MK]"
+			},
+			{
+				"name": "Tenchu",
+				"input": ":b: {or} :f:+[HK]"
+			},
+			{
+				"name": "Tombstone Drop",
+				"input": "{duringAngledJump}, :d:+[K]"
+			},
+			{
+				"name": "Tombstone Dive",
+				"input": "{duringAngledJump}, :df:+[K]"
+			},
+			{
+				"name": "Double Jump",
+				"input": "{duringAngledJump}, :ub: {or} :uf:"
+			},
+			{
+				"name": "Triple Jump",
+				"input": ":ub: {or} :uf:",
+				"after": "Double Jump"
+			},
+			{
+				"name": "Float",
+				"input": ":u:"
+			},
+			{
+				"name": "Air Float",
+				"input": ":u:",
+				"after": "Float"
+			},
+			{
+				"name": "Warp",
+				"input": "{backInCorner}, :b::b:"
+			}
+		],
+		"{pursuit}": [
+			{
+				"name": "Imashime no Bohi",
+				"input": "{withOpponentKnockedDown}, :u:+[P] {or} [K]",
+				"canBeUpgraded": true
+			}
+		],
+		"{specialMoves}": [
+			{
+				"name": "Cobra Blow",
+				"input": ":b::f:+[P]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Hitsugi no Mai",
+				"input": ":d::d:+[P] {or} [K] ({airOK})",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Miira Drop",
+				"input": ":qcf:+[P]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Kotodama Gaeshi (Inhale)",
+				"input": ":qcb:+[K] ({airOK})",
+				"extraInfo": "{anakarisInhale}"
+			},
+			{
+				"name": "Kotodama Gaeshi (Exhale)",
+				"input": ":qcf:+[K] ({airOK})",
+				"canBeUpgraded": true,
+				"extraInfo": "{anakarisExhale}"
+			},
+			{
+				"name": "Ouke no Sabaki",
+				"input": "{inAir}, :qcf:+[P]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Togame no Ana",
+				"input": "{whenKnockedDown}, :dp:+[K]"
+			}
+		],
+		"{exMoves}": [
+			{
+				"name": "Shinjitsu no Oshie",
+				"input": "{whileBlocking}, :dp:+[P]+[P]",
+				"guardCancel": true
+			},
+			{
+				"name": "Naraku no Ana",
+				"input": ":hcf:+[K]+[K]"
+			},
+			{
+				"name": "Pharaoh Split",
+				"input": "[LP] > [LP] > :d: > [MK] > [HK]"
+			},
+			{
+				"name": "Pharaoh Magic",
+				"input": "[MK] > [LP] > :d: > [LK] > [MP] ({airOK})"
+			},
+			{
+				"name": "Pharaoh Salvation",
+				"input": "[HK] > [MP] > :d: > [MK] > [HP] ({airOK})",
+				"exMoveCost": 2
+			},
+			{
+				"name": "Pharaoh Decoration",
+				"input": "[HK] > [MP] > [LK] > :d: > [LP] > [MK] > [HP] ({airOK})",
+				"exMoveCost": 3
+			}
+		]
+	},
+	"custom_strings": {
+		"english": {
+			"backInCorner": "with your back against the corner",
+			"anakarisInhale": "Makes Anakaris try to absorb a projectile",
+			"anakarisExhale": "If Kotodama Gaeshi (Inhale) was sucessful, makes Anakaris spit the projectile back at his opponent"
+		},
+		"portuguese": {
+			"backInCorner": "de costas para o canto da tela",
+			"anakarisInhale": "Faz Anakaris tentar absorver um projétil",
+			"anakarisExhale": "Se Kotodama Gaeshi (Inhale) absorveu um projétil, faz Anakaris devolver o projétil"
+		}
+	}
+}
