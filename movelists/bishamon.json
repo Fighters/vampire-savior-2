@@ -1,0 +1,141 @@
+{
+	"names": {
+		"default": {
+			"roman": "Bishamon"
+		},
+		"japan": {
+			"roman": "Bishamon",
+			"original": "ビシャモン"
+		}
+	},
+	"images": {
+		"face": "bishamon.webp"
+	},
+	"moves": {
+		"{normalThrows}": [
+			{
+				"name": "Kesa Nage",
+				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+			},
+			{
+				"name": "Mitama Nuki",
+				"input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
+			}
+		],
+		"{uniqueAttacks}": [
+			{
+				"name": "Kareha Chirashi",
+				"input": ":f:+[LP]"
+			},
+			{
+				"name": "Kareha Chirashi: Kirikaeshi",
+				"input": "{press} [LP]",
+				"after": "Kareha Chirashi"
+			},
+			{
+				"name": "Ichimonjigiri",
+				"input": ":f:+[MP]"
+			},
+			{
+				"name": "Ichimonjigiri: Kirikaeshi",
+				"input": "{press} [MP]",
+				"after": "Ichimonjigiri"
+			},
+			{
+				"name": "Kawara Kudaki",
+				"input": ":f:+[HP]"
+			},
+			{
+				"name": "Kawara Kudaki: Kirikaeshi",
+				"input": "{press} [HP]",
+				"after": "Ichimonjigiri"
+			},
+			{
+				"name": "Hayagatana",
+				"input": ":f:+[LK]"
+			},
+			{
+				"name": "Sotobaori",
+				"input": ":f:+[MK]"
+			},
+			{
+				"name": "Kainaotoshi",
+				"input": ":f:+[HK]"
+			}
+		],
+		"{pursuit}": [
+			{
+				"name": "Kabanenui",
+				"input": "{withOpponentKnockedDown}, :u:+[P] {or} [K]",
+				"canBeUpgraded": true
+			}
+		],
+		"{specialMoves}": [
+			{
+				"name": "Kienzan",
+				"input": ":dp:+[P]",
+				"canBeUpgraded": true,
+				"guardCancel": true,
+				"extraInfo": "{bishamonKienzan}"
+			},
+			{
+				"name": "Karame Dama",
+				"input": ":hcf:+[P] ({airOK})",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Tsuji Hayate",
+				"input": ":qcf:+[P]",
+				"canBeUpgraded": true,
+				"after": "Karame Dama"
+			},
+			{
+				"name": "Tama Yose",
+				"input": ":b:+[P]",
+				"after": "Karame Dama"
+			},
+			{
+				"name": "Kienzan",
+				"input": ":dp:+[P]",
+				"after": "Tama Yose"
+			},
+			{
+				"name": "Iaigiri (High)",
+				"input": "{charge} :b: :f:+[P]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Iaigiri (Low)",
+				"input": "{charge} :b: :f:+[K]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Kirisute Gomen",
+				"input": "{close}, :360:+[MP] {or} [HP]",
+				"canBeUpgraded": true
+			}
+		],
+		"{exMoves}": [
+			{
+				"name": "Oni Kubi Hineri",
+				"input": ":hcb:+[P]+[P]"
+			},
+			{
+				"name": "Enma Ishi",
+				"input": ":hcf:+[K]+[K]"
+			},
+			{
+				"name": "Togakubi Sarashi",
+				"input": "{withOpponentKnockedDown}, :d::d:+[P]+[P]"
+			}
+		]
+	},
+	"custom_strings": {
+		"english": {
+			"bishamonKienzan": "aside from Guard Cancel, can only be performed in reversal situations (such as getting up or landing after a jump)"
+		},
+		"portuguese": {
+			"bishamonKienzan": "além do Guard Cancel, só pode ser feito em situações de reversal (como ao levantar ou ao chegar no chão após um pulo)"
+		}
+	}
+}
