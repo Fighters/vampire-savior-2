@@ -1,0 +1,111 @@
+{
+	"names": {
+		"default": {
+			"roman": "Donovan"
+		},
+		"japan": {
+			"roman": "Donovan",
+			"original": "ドノヴァン"
+		}
+	},
+	"images": {
+		"face": "donovan.webp"
+	},
+	"moves": {
+		"{normalThrows}": [
+			{
+				"name": "Shareer Marna",
+				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+			}
+		],
+		"{uniqueAttacks}": [
+			{
+				"name": "Dabana Pair",
+				"input": ":f:+[HK]"
+			},
+			{
+				"name": "Pehla Utarna",
+				"input": "{withSwordEquipped}, {inAir}, :d:+[LK]"
+			},
+            {
+				"name": "Dusara Utarna",
+				"input": "{withSwordEquipped}, {inAir}, :d:+[MK]"
+			},
+            {
+				"name": "Tisara Utarna",
+				"input": "{withSwordEquipped}, {inAir}, :d:+[HK]"
+			}
+		],
+		"{pursuit}": [
+			{
+				"name": "Haddidard",
+				"input": "{withOpponentKnockedDown}, :u:+[P] {or} [K]",
+				"canBeUpgraded": true
+			}
+		],
+		"{specialMoves}": [
+			{
+				"name": "Killshread Plant",
+				"input": "{withSwordEquipped}, :qcb:+[K]",
+				"canBeUpgraded": true
+			},
+            {
+				"name": "Killshread Summon",
+				"input": ":qcb:+[K] ({airOK})",
+				"after": "Killshread Plant"
+			},
+            {
+				"name": "Killshread Lightning Strike",
+				"input": ":qcb:+[P]",
+                "canBeUpgraded": true,
+				"after": "Killshread Plant"
+			},
+			{
+				"name": "Ifrit Sword",
+				"input": "{withSwordEquipped}, :dp:+[P]",
+				"canBeUpgraded": true,
+                "guardCancel": true
+			},
+			{
+				"name": "Lightning Sword",
+				"input": "{withSwordEquipped}, :rdp:+[P]",
+				"canBeUpgraded": true,
+                "extraInfo": "{lightningSwordMash}"
+			},
+            {
+				"name": "Blizzard Sword",
+				"input": "{withSwordEquipped}, :hcf:+[P]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Sword Grapple",
+				"input": "{withSwordEquipped}, {close}, :hcb:+[MP] {or} [HP]",
+				"canBeUpgraded": true
+			}
+		],
+		"{exMoves}": [
+			{
+				"name": "Press of Death",
+				"input": ":hcf:+[K]"
+			},
+			{
+				"name": "Slayshread",
+				"input": ":rdp:+[K]+[K]"
+			},
+			{
+				"name": "Change Immortal",
+				"input": "[MP] > [LP] > :b: > [LK] > [MK] ({use} :d: {or} :u: {toMove})"
+			}
+		]
+	},
+	"custom_strings": {
+		"english": {
+            "withSwordEquipped": "with the sword equipped",
+            "lightningSwordMash": "wiggle the joystick and {or} {tap} [P] {repeatedly} {forMoreHits}"
+        },
+		"portuguese": {
+            "withSwordEquipped": "com a espada equipada",
+            "lightningSwordMash": "gire o direcional e {or} {tap} [P] {repeatedly} {forMoreHits}"
+        }
+	}
+}
