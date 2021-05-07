@@ -1,0 +1,134 @@
+{
+	"names": {
+		"default": {
+			"roman": "Oboro Bishamon"
+		},
+		"japan": {
+			"roman": "Oboro Bishamon",
+			"original": "朧ビシャモン"
+		}
+	},
+	"images": {
+		"face": "oboroBishamon.webp"
+	},
+	"moves": {
+		"{normalThrows}": [
+			{
+				"name": "Kesa Nage",
+				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+			},
+			{
+				"name": "Mitama Nuki",
+				"input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
+			}
+		],
+		"{uniqueAttacks}": [
+			{
+				"name": "Kareha Chirashi",
+				"input": ":f:+[LP]"
+			},
+			{
+				"name": "Kareha Chirashi: Kirikaeshi",
+				"input": "{press} [LP]",
+				"after": "Kareha Chirashi"
+			},
+			{
+				"name": "Ichimonjigiri",
+				"input": ":f:+[MP]"
+			},
+			{
+				"name": "Ichimonjigiri: Kirikaeshi",
+				"input": "{press} [MP]",
+				"after": "Ichimonjigiri"
+			},
+			{
+				"name": "Kawara Kudaki",
+				"input": ":f:+[HP]"
+			},
+			{
+				"name": "Kawara Kudaki: Kirikaeshi",
+				"input": "{press} [HP]",
+				"after": "Ichimonjigiri"
+			},
+			{
+				"name": "Hayagatana",
+				"input": ":f:+[LK]"
+			},
+			{
+				"name": "Sotobaori",
+				"input": ":f:+[MK]"
+			},
+			{
+				"name": "Kainaotoshi",
+				"input": ":f:+[HK]"
+			}
+		],
+		"{pursuit}": [
+			{
+				"name": "Kabanenui",
+				"input": "{withOpponentKnockedDown}, :u:+[P] {or} [K]",
+				"canBeUpgraded": true
+			}
+		],
+		"{specialMoves}": [
+			{
+				"name": "Nu Kienzan",
+				"input": ":hcf:+[P]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Kienzan",
+				"input": ":dp:+[P]",
+				"canBeUpgraded": true,
+				"guardCancel": true
+			},
+			{
+				"name": "Onibi Tabane",
+				"input": ":dp:+[K]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Oni Naburi",
+				"input": ":qcf::uf:+[P]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Iaigiri (High)",
+				"input": "{charge} :b: :f:+[P]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Iaigiri (Low)",
+				"input": "{charge} :b: :f:+[K]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Kirisute Gomen",
+				"input": "{close}, :360:+[MP] {or} [HP]",
+				"canBeUpgraded": true
+			}
+		],
+		"{exMoves}": [
+			{
+				"name": "Kimen Kudaki",
+				"input": ":rdp:+[P]+[P]"
+			},
+			{
+				"name": "Oni Kubi Hineri",
+				"input": ":hcb:+[P]+[P]"
+			},
+			{
+				"name": "Enma Ishi",
+				"input": ":hcf:+[K]+[K]"
+			},
+			{
+				"name": "Togakubi Sarashi",
+				"input": "{withOpponentKnockedDown}, :d::d:+[P]+[P]"
+			}
+		]
+	},
+	"custom_strings": {
+		"english": {},
+		"portuguese": {}
+	}
+}
