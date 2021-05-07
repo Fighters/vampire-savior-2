@@ -1,0 +1,119 @@
+{
+	"names": {
+		"default": {
+			"roman": "Baby Bonnie Hood"
+		},
+		"japan": {
+			"roman": "Bulleta",
+			"original": "バレッタ"
+		}
+	},
+	"images": {
+		"face": "babybonniehood.webp"
+	},
+	"moves": {
+		"{normalThrows}": [
+			{
+				"name": "Hold & Cut",
+				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+			},
+			{
+				"name": "Catch & Cut",
+				"input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
+			}
+		],
+		"{uniqueAttacks}": [
+			{
+				"name": "Double Jump",
+				"input": "{inAir}, :ub: {or} :u: {or} :uf:"
+			},
+			{
+				"name": "Tell Me Why",
+				"input": ":d:+[LK]+[MK]+[HK]"
+			},
+			{
+				"name": "Tricky Basket",
+				"input": ":b: {or} :f:+[MP]"
+			},
+			{
+				"name": "Surprise & Hop",
+				"input": ":b: {or} :f:+[MK]"
+			},
+			{
+				"name": "Malice & Mine",
+				"input": ":df:+[HK]"
+			},
+			{
+				"name": "Stumble & Blade",
+				"input": "{duringForwardDash}, :f:+[MP]"
+			}
+		],
+		"{pursuit}": [
+			{
+				"name": "Law of the Bullet",
+				"input": "{withOpponentKnockedDown}, :u:+[P] {or} [K]",
+				"canBeUpgraded": true
+			}
+		],
+		"{specialMoves}": [
+			{
+				"name": "Smile & Missile (High)",
+				"input": "{charge} :b: :f:+[P]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Smile & Missile (Low)",
+				"input": "{charge} :b: :f:+[K]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Happy & Missile",
+				"input": "{charge} :d: :u:+[P]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Shyness & Strike",
+				"input": ":qcb:+[P] ({hold} [P] {toCharge})",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Cheer & Fire",
+				"input": ":dp:+[P]",
+				"canBeUpgraded": true,
+				"guardCancel": true
+			},
+			{
+				"name": "Jealousy & Fake",
+				"input": "{whileBlocking}, :dp:+[K]",
+				"guardCancel": true
+			},
+			{
+				"name": "Sentimental Typhoon",
+				"input": "{close}, :hcb:+[MP] {or} [HP]",
+				"canBeUpgraded": true
+			}
+		],
+		"{exMoves}": [
+			{
+				"name": "Cool Hunting",
+				"input": ":hcf:+[P]+[P]"
+			},
+			{
+				"name": "Beautiful Memory",
+				"input": ":hcf:+[K]+[K]"
+			},
+			{
+				"name": "Apple for You",
+				"input": ":hcb:+[K]+[K]"
+			},
+			{
+				"name": "Doll & Bomb",
+				"input": ":rdp:+[K]+[K]"
+			}
+		]
+	},
+	"custom_strings": {
+		"english": {},
+		"portuguese": {}
+	}
+}
