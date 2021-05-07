@@ -1,0 +1,192 @@
+[
+	{
+		"name": "Anakaris",
+		"repository": "",
+		"movelist": "anakaris.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "アナカリス"
+			}
+		]
+	},
+	{
+		"name": "Baby Bonnie Hood",
+		"also-known-as": [
+			"B.B. Hood",
+			"Bulleta"
+		],
+		"repository": "",
+		"movelist": "babyBonnieHood.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "バレッタ"
+			}
+		]
+	},
+	{
+		"name": "Bishamon",
+		"repository": "",
+		"movelist": "bishamon.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "ビシャモン"
+			}
+		]
+	},
+	{
+		"name": "Demitri",
+		"repository": "",
+		"movelist": "demitri.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "デミトリ・マキシモフ"
+			}
+		]
+	},
+	{
+		"name": "Felicia",
+		"repository": "",
+		"movelist": "felicia.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "フェリシア"
+			}
+		]
+	},
+	{
+		"name": "Hsien-Ko",
+		"also-known-as": [
+			"Lei-Lei"
+		],
+		"repository": "",
+		"movelist": "hsienko.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "レイレイ"
+			}
+		]
+	},
+	{
+		"name": "Jedah",
+		"repository": "",
+		"movelist": "jedah.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "ジェダ・ドーマ"
+			}
+		]
+	},
+	{
+		"name": "Lilith",
+		"repository": "",
+		"movelist": "lilith.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "リリス"
+			}
+		]
+	},
+	{
+		"name": "L. Rapter",
+		"also-known-as": [
+			"Lord Raptor",
+			"Zabel"
+		],
+		"repository": "",
+		"movelist": "lRapter.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "ザベル・ザロック"
+			}
+		]
+	},
+	{
+		"name": "Morrigan",
+		"repository": "",
+		"movelist": "morrigan.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "モリガン・アーンスランド"
+			}
+		]
+	},
+	{
+		"name": " Q-Bee ",
+		"repository": "",
+		"movelist": "qBee.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "キュービィ"
+			}
+		]
+	},
+	{
+		"name": "Victor",
+		"repository": "",
+		"movelist": "victor.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "ビクトル・フォン・ゲルデンハイム"
+			}
+		]
+	},
+	{
+		"name": "Donovan",
+		"repository": "",
+		"movelist": "donovan.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "ドノヴァン・バイン"
+			}
+		]
+	},
+	{
+		"name": "Huitzil",
+		"also-known-as": [
+			"Phobos"
+		],
+		"repository": "",
+		"movelist": "huitzil.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "フォボス"
+			}
+		]
+	},
+	{
+		"name": "Pyron",
+		"repository": "",
+		"movelist": "pyron.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "パイロン"
+			}
+		]
+	},
+	{
+		"name": "Oboro Bishamon",
+		"repository": "",
+		"movelist": "oboroBishamon.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "朧ビシャモン"
+			}
+		]
+	}
+]
