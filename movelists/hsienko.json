@@ -47,7 +47,7 @@
 			},
 			{
 				"name": "Henkyo Ki",
-				"input": ":qcb:+[P]",
+				"input": ":qcb:+[P] ({airOK})",
 				"canBeUpgraded": true
 			},
 			{
