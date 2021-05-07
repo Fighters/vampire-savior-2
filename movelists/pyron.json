@@ -1,0 +1,109 @@
+{
+	"names": {
+		"default": {
+			"roman": "Pyron"
+		},
+		"japan": {
+			"roman": "Pyron",
+			"original": "パイロン"
+		}
+	},
+	"images": {
+		"face": "pyron.webp"
+	},
+	"moves": {
+		"{normalThrows}": [
+			{
+				"name": "Corona Whip",
+				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+			},
+			{
+				"name": "Galactic Through",
+				"input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
+			}
+		],
+		"{uniqueAttacks}": [
+			{
+				"name": "Flame Head",
+				"input": ":f:+[LP]"
+			},
+			{
+				"name": "Blast Blaze",
+				"input": ":f:+[MP]"
+			},
+			{
+				"name": "Meteor Destroy",
+				"input": ":f:+[HP]"
+			},
+			{
+				"name": "Meteor Attack",
+				"input": "{inAir}, :d:+[LP]"
+			},
+			{
+				"name": "Meteor Bastard",
+				"input": "{inAir}, :d:+[MP]"
+			},
+			{
+				"name": "Meteor Magnify",
+				"input": "{inAir}, :d:+[HP]"
+			}
+		],
+		"{pursuit}": [
+			{
+				"name": "Stardust Shoot",
+				"input": "{withOpponentKnockedDown}, :u:+[P] {or} [K]",
+				"canBeUpgraded": true
+			}
+		],
+		"{specialMoves}": [
+			{
+				"name": "Sol Smasher",
+				"input": ":qcf:+[P]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Aerial Sol Smasher",
+				"input": "{inAir}, :qcf:+[P]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Orbiter Blaze",
+				"input": "{inAir}, :qcb:+[K]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Zodiac Fire",
+				"input": ":dp:+[P]",
+				"canBeUpgraded": true,
+				"guardCancel": true
+			},
+			{
+				"name": "Galaxy Trip",
+				"input": ":rdp:+[P] {or} [K] ({airOK})"
+			},
+			{
+				"name": "Planet Burning",
+				"input": "{close}, :hcb:+[MP] {or} [HP]",
+				"canBeUpgraded": true
+			}
+		],
+		"{exMoves}": [
+			{
+				"name": "Cosmo Disruption",
+				"input": ":hcf:+[P]+[P] {or} [K]+[K] ({hold} [P]+[P] {or} [K]+[K] {toCharge})"
+			},
+			{
+				"name": "Biled Hell",
+				"input": ":dp:+[K]+[K] ({airOK})"
+			},
+			{
+				"name": "Shining Gemini",
+				"input": ":d::f::df:+[P]+[P]"
+			}
+		]
+	},
+	"custom_strings": {
+		"english": {},
+		"portuguese": {}
+	}
+}
