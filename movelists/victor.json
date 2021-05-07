@@ -1,0 +1,165 @@
+{
+	"names": {
+		"default": {
+			"roman": "Victor"
+		},
+		"japan": {
+			"roman": "Victor",
+			"original": "ビクトル"
+		}
+	},
+	"images": {
+		"face": "victor.webp"
+	},
+	"moves": {
+		"{normalThrows}": [
+			{
+				"name": "Mega Strangle",
+				"input": "{close}, :b: {or} :f:+[MP]"
+			},
+			{
+				"name": "Graviton Knuckle",
+				"input": ":d::u:+[P]",
+				"after": "Mega Strangle"
+			},
+			{
+				"name": "Jaw Slugger",
+				"input": "{close}, :b: {or} :f:+[HP]"
+			},
+			{
+				"name": "Graviton Knuckle",
+				"input": ":d::u:+[P]",
+				"after": "Jaw Slugger"
+			},
+			{
+				"name": "Bottom Grip",
+				"input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
+			},
+			{
+				"name": "Mega Throw",
+				"input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
+			}
+		],
+		"{uniqueAttacks}": [
+			{
+				"name": "Thunder Hit",
+				"input": "{close}, {hold} [MP]"
+			},
+			{
+				"name": "Thunder Grip",
+				"input": "{far}, {hold} [MP]"
+			},
+			{
+				"name": "Thunder Struggle",
+				"input": ":d:+{hold} [MP]"
+			},
+			{
+				"name": "Thunder Pressure",
+				"input": "{close}, {hold} [HP]"
+			},
+			{
+				"name": "Thunder Arm",
+				"input": "{far}, {hold} [HP]"
+			},
+			{
+				"name": "Thunder Upper",
+				"input": ":d:+{hold} [HP]"
+			},
+			{
+				"name": "Lightning Breath",
+				"input": "{close}, {hold} [MK]"
+			},
+			{
+				"name": "Lightning Leg",
+				"input": "{far}, {hold} [MK]"
+			},
+			{
+				"name": "Lightning Slide",
+				"input": ":d:+{hold} [MK]"
+			},
+			{
+				"name": "Lightning Slam",
+				"input": "{close}, {hold} [HK]"
+			},
+			{
+				"name": "Lightning Crash",
+				"input": "{far}, {hold} [HK]"
+			},
+			{
+				"name": "Lightning Hammer",
+				"input": ":d:+{hold} [HK]"
+			},
+			{
+				"name": "Minimum Step",
+				"input": ":d:+[LK]+[MK]+[HK]"
+			}
+		],
+		"{pursuit}": [
+			{
+				"name": "Victor Finger",
+				"input": "{withOpponentKnockedDown}, :u:+[P] {or} [K]",
+				"canBeUpgraded": true
+			}
+		],
+		"{specialMoves}": [
+			{
+				"name": "Gyro Crush",
+				"input": ":qcb:+[P] ({use} :b: {or} :f: {toMove})",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Giga Burn",
+				"input": ":dp:+[K]",
+				"canBeUpgraded": true,
+				"guardCancel": true
+			},
+			{
+				"name": "Giga Buster",
+				"input": "{charge} :b: :f:+[K]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Mega Forehead",
+				"input": "{charge} :b: :f:+[P]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Mega Stake",
+				"input": "{charge} :d: :u:+[P]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Mega Shock",
+				"input": "{close}, :qcf:+[K]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Mega Spike",
+				"input": "{close}, :360:+[P]",
+				"canBeUpgraded": true
+			}
+		],
+		"{exMoves}": [
+			{
+				"name": "Thunder Break",
+				"input": "{charge} :d: :u:+[K]+[K]"
+			},
+			{
+				"name": "Giga Brute",
+				"input": ":dp:+[P]+[P]"
+			},
+			{
+				"name": "Great Geldenheim",
+				"input": ":hcf:+[K]+[K]"
+			},
+			{
+				"name": "Geldenheim 3",
+				"input": "{close}, :360::360:+[K]+[K]"
+			}
+		]
+	},
+	"custom_strings": {
+		"english": {},
+		"portuguese": {}
+	}
+}
